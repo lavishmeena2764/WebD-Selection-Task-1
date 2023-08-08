@@ -1,0 +1,113 @@
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+  }
+  
+  .active, .accordion:hover {
+    background-color: #ccc; 
+    opacity: 80%;
+  }
+  
+  .panel {
+    padding: 0 18px;
+    display: block; 
+    overflow: hidden;
+  }
+.dark-theme{
+  background-color: rgba(0, 0, 0, 0.862);
+  color: white;
+}
+
+.formId input{
+  padding: 10px;
+}
+
+#formId{
+  margin-bottom: 10%;
+}
+
+.light-theme-input{
+  color: black;
+  padding: 1%;
+  border: 1px solid black;
+}
+.dark-theme-panel{
+  background-color: #444;
+  color: white;
+}
+
+#page-title{
+  margin: 1%;
+  width: fit-content;
+  display: inline-block;
+}
+#book-title{
+  margin: 1%;
+  width: fit-content;
+  display: none;
+}
+
+#theme{
+  border: none;
+  border-radius: 5px;
+  width: 100px;
+  height: 50px;
+  font-size: medium;
+  float: right;
+  display: inline-block;
+  /* background-color: #444;
+  color: white; */
+}
+.theme-button-dark{
+  background-color: white;
+  color: black;
+}
+.theme-button-light{
+  background-color: #444;
+  color: white;
+}
+
+.dark-theme-input{
+  background-color: black;
+  color: rgb(199, 196, 196);
+}
+
+#myProgress {
+  width: 100%;
+  background-color: #ececec;
+  margin-bottom: 2%;
+  
+}
+
+#myBar {
+  width: 0%;
+  height: 30px;
+  background-color: #04AA6D;
+}
+
+#bookmark{
+  margin-bottom: 10%;
+}
+
+@media only screen and (max-width: 800px) {
+  .new {
+    margin-top: 5%;
+  }
+  #myProgress{
+    margin-top: 5%;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .new {
+    margin-top: 18%;
+  }
+  
+}
